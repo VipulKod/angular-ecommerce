@@ -1,0 +1,12 @@
+<p>test works!</p>
+
+<h5>Hey how are you?</h5>
+
+<input
+  class="input"
+  id="userInput"
+  [(ngModel)]="userInput"
+  #UserInput="ngModel"
+  placeholder="Enter your question here"
+/>
+<button class="btn" (click)="getUserMsg()">Send</button>
